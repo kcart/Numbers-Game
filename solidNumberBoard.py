@@ -1,5 +1,6 @@
-print "Let's play a game. Enter a series of only zeroes and ones to build a board with the most solid rows, and \
-and colums of either ones or zeroes! Enter your numbers (no spaces)"
+print "Let's play a game. Enter a string of 0s and 1s! I will determine which board \
+size returns the most solid' rows and which board size returns the most 'solid' \
+columns. Enter your string!"
 string = raw_input()
 maxColumnScore = [0, 0]
 maxRowScore = [0, 0]
